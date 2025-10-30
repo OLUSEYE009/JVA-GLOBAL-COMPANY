@@ -14,9 +14,6 @@ import project_img_3 from './project_img_3.jpg'
 import project_img_4 from './project_img_4.jpg'
 import project_img_5 from './project_img_5.jpg'
 import project_img_6 from './project_img_6.jpg'
-import profile_img_1 from './profile_img_1.png'
-import profile_img_2 from './profile_img_2.png'
-import profile_img_3 from './profile_img_3.png'
 
 export const assets = {
     logo,
@@ -31,6 +28,8 @@ export const assets = {
     project_img_2,
     project_img_3,
     project_img_4,
+    project_img_5,
+    project_img_6,
     left_arrow,
     right_arrow,
 }
@@ -72,32 +71,32 @@ export const projectsData = [
       location: "Port Harcourt",
       image: project_img_6
     },
-    
+
   ];
 
-  export const testimonialsData = [
+export const testimonialsData = [
     {
-        name: "Donald Jackman",
-        title: "Marketing Manager",
-        image: profile_img_1,
-        alt: "Portrait of Donald Jackman",
+        name: "Chukwuma Okoro",
+        title: "Business Owner",
+        image: "https://images.unsplash.com/photo-1545167622-3a6ac756afa4?w=200&h=200&fit=crop&crop=face&auto=format",
+        alt: "Portrait of Chukwuma Okoro",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "As an Igbo businessman, I needed commercial property in Lagos. JVA Global found me the perfect location in Alaba Market. Their understanding of business needs is exceptional!"
     },
     {
-        name: "Richard Nelson",
-        title: "UI/UX Designer",
-        image: profile_img_2,
-        alt: "Portrait of Richard Nelson",
-        rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        name: "Adebayo Ogunlesi",
+        title: "Bank Executive",
+        image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop&crop=face&auto=format",
+        alt: "Portrait of Adebayo Ogunlesi",
+        rating: 5,
+        text: "Being Yoruba, family is important to me. JVA Global helped me find a beautiful family home in Ikeja GRA that accommodates our extended family. Their cultural understanding made all the difference!"
     },
     {
-        name: "James Washington",
-        title: "Co-Founder",
-        image: profile_img_3,
-        alt: "Portrait of James Washington",
+        name: "Ibrahim Sani",
+        title: "Oil & Gas Consultant",
+        image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?w=200&h=200&fit=crop&crop=face&auto=format",
+        alt: "Portrait of Ibrahim Sani",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Coming from the North to work in Port Harcourt, I needed reliable housing. JVA Global secured me a secure apartment in a great neighborhood. Their service across different regions is impressive!"
     }
 ];
