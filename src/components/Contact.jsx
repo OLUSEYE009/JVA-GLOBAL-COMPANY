@@ -59,7 +59,7 @@ const Contact = () => {
         <a href="mailto:jamesvictor495@gmail.com" className='text-white hover:text-gray-400 bg-gray-700 px-4 py-2 rounded-lg transition-colors duration-300'>Mail Me</a>
       </div>
 
-      <form onSubmit={handleSubmit} method="post" action="https://app.proforms.top/f/pr75625e7" className='max-w-2xl mx-auto text-gray-600 pt-8'>
+      <form onSubmit={handleSubmit} method="post" action="https://app.proforms.top/f/pr9988883" className='max-w-2xl mx-auto text-gray-600 pt-8'>
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 text-left">Your Name:
             <input 
