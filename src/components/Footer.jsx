@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
-            Copyright 2025 © JVA Global(Website Powered By <a target="_blank" href='https://oluseye009.github.io/Oluseye.github.io' className='hover:text-white transition-colors duration-300'><abbr title='Click Me'>Oluseye</abbr></a>). All Right Reserved <br />
+            Copyright 2025 © JVA Global(Website Powered By <a target="_blank" href='https://oluseye009.github.io/Oluseye.github.io' target="_blank" className='hover:text-white transition-colors duration-300'><abbr title='Click Me'>Oluseye</abbr></a>). All Right Reserved <br />
         </div>
     </div>
   )
